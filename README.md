@@ -1,6 +1,6 @@
 # 📱 Calculadora de Salario Neto
 
-Una aplicación Android desarrollada en Kotlin con Jetpack Compose que calcula el salario neto anual y mensual basándose en diversos parámetros fiscales y personales.
+Una aplicación Android desarrollada en Kotlin con Jetpack Compose que calcula el salario neto anual y mensual.
 
 ## 🚀 Características
 
@@ -14,8 +14,6 @@ Una aplicación Android desarrollada en Kotlin con Jetpack Compose que calcula e
 
 - **Kotlin** - Lenguaje de programación
 - **Jetpack Compose** - Framework de UI moderna
-- **Navigation Component** - Navegación entre pantallas
-- **Material Design 3** - Sistema de diseño
 - **Android Studio** - Entorno de desarrollo
 
 ## 📋 Funcionalidades
@@ -67,23 +65,6 @@ Salario Neto = Salario Bruto - Retención IRPF - Deducciones
 
 Retención IRPF = (Salario Bruto × 17%) - (Número de Hijos × 500€)
 Deducciones = 1000€ + (Número de Hijos × 200€)
-🏗️ Estructura del Proyecto
-text
-app/
-├── main/
-│   ├── java/com/example/appactividad1_arantzaalcazar/
-│   │   ├── MainActivity.kt
-│   │   └── Pantallas/
-│   │       ├── PantallaFormulario.kt
-│   │       └── PantallaResultados.kt
-│   └── res/
-└── build.gradle
-📱 Capturas de Pantalla
-(Incluir capturas de pantalla aquí)
-
-Pantalla de formulario con todos los campos de entrada
-
-Pantalla de resultados con el desglose del cálculo
 
 📝 Personalización
 Puedes modificar los porcentajes de retención y deducciones en la función calcularSalarioNeto() ubicada en MainActivity.kt.
